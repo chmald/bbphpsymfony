@@ -1,4 +1,10 @@
 {
+    "name": "symfony/symfony",
+    "description": "The Symfony Framework.",
+    "keywords": [
+        "framework",
+        "symfony"
+    ],    
     "license": "proprietary",
     "type": "project",
     "minimum-stability": "stable",
