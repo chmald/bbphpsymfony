@@ -1,5 +1,9 @@
 <?php
 
+// Workaround to get debugbar showing via https
+$_SERVER['HTTPS'] = 'on';
+$_SERVER['SERVER_PORT'] = 443;
+
 use App\Kernel;
 use Symfony\Component\Dotenv\Dotenv;
 use Symfony\Component\ErrorHandler\Debug;
